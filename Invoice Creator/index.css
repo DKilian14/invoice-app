@@ -1,0 +1,161 @@
+body{
+  background-color: black;
+  color:white;
+  font-size: 20px;
+  display:block;
+  justify-content: center;
+  align-items: center;
+
+}
+hr{
+  color: grey;
+  width: 55%;
+}
+
+table{
+  width:55%;
+}
+
+button{
+  border-radius: 5px;
+}
+
+.service-btn{
+  background-color: #D1D4F4;
+  border-color: white;
+  height:50px;
+  width: 150px;
+  margin-right: 20px;
+  /* padding-top: 2%; */
+}
+
+#service-btns{
+  display: flex;
+  justify-content: center;
+  /* padding-top: 2%; */
+}
+
+#top{
+  background-color: #3A69D2;
+  text-align:  center;
+  padding-bottom: 1%;
+  width:50%;
+  margin:auto;
+}
+
+#bottom{
+  background-color: #1F2937;
+  display: block;
+  justify-content: center;
+  padding-top: 3%;
+  width:50%;
+  margin:auto;
+}
+
+#services{
+  padding-top: 2%;
+  display:flex;
+  color: #D5D4D8;
+  align-content: center;
+  justify-content: center;
+}
+
+#tasks{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#costs{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+#total-calc{
+  padding-top: 3%;
+  /* background-color: blue; */
+  display:flex;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 32px;
+}
+
+#notes{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#total-amt{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#calculated-amt{
+  /* background-color: blue; */
+  display:flex;
+}
+
+#note{
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+#calc-amt{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#send-invoice{
+  padding-top: 3%;
+  /* background-color: red; */
+  display:flex;
+  justify-content: center;
+  padding-bottom:3%;
+}
+
+#invoice-btn{
+  background: #3A69D2;
+/* shadow/sm */
+  width: 60%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  background: #3A69D2;
+/* shadow/sm */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+
+}
+
+#display-lst{
+  /* background-color: grey; */
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.right{
+  text-align: right;
+}
+
+.left{
+  text-align:left;
+}
+
+.remove-btn{
+  text-decoration: underline;
+}
